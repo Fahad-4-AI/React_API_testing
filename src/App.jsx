@@ -24,7 +24,9 @@ function App() {
        <ApiTask
       key={itemsEntery.id}
       title={itemsEntery.title}
-    
+      image={itemsEntery.image}
+      price={itemsEntery.price}
+      rating={itemsEntery.rating}
       />)
     })}
      </>
